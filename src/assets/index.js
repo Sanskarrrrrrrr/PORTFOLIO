@@ -29,6 +29,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import DinHeiro from "./DinHeiro.png";
+import Gericht from "./Gericht.png";
 
 export {
   logo,
@@ -48,7 +50,9 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  Gericht,
   redux,
+  DinHeiro,
   tailwind,
   typescript,
   threejs,

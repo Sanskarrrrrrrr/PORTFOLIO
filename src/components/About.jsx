@@ -44,9 +44,11 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("","",0.1,1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-6xl leading-[30px]"
         >
-         Hey there!! Myself Sanskar.A problem solver from the foothills of Nepal.
+         Hey there!! My name is Sanskar Ojha.A 3rd Year Computer Science Student from Delhi Technological University.I am keenly interested in Software and Web Domain.Currently i am working with ReactJS,ThreeJS,NodeJs and some other
+         tech stacks.This Portfolio Website is also under timely update to ensure the best respresentation of my skillset through projects
+         and work experience.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

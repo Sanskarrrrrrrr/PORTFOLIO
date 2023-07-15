@@ -63,9 +63,11 @@ const Experience = () => {
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
         </p>
+       
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience.
         </h2>
+        
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
@@ -75,8 +77,11 @@ const Experience = () => {
               key={`experience-${index}`}
               experience={experience}
             />
+            
           ))}
         </VerticalTimeline>
+        
+        <p className={`${styles.sectionSubText} text-center`}>This is an template form of experience made to showcase. It is not an actual portrayal of experiences</p>
       </div>
     </>
   );

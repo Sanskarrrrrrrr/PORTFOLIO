@@ -59,6 +59,7 @@ const Feedbacks = () => {
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
       </div>
+      <p className={styles.sectionSubText} class="title">This is just a template of a testimonial</p>
     </div>
   );
 };

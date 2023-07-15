@@ -4,14 +4,11 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
     docker,
@@ -22,6 +19,8 @@ import {
     carrent,
     jobit,
     tripguide,
+    Gericht,
+    DinHeiro,
     threejs,
   } from "../assets";
   
@@ -73,17 +72,10 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -91,10 +83,6 @@ import {
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -172,7 +160,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Sanskar proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -180,7 +168,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Sanskar does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -188,7 +176,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Sanskar optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -198,16 +186,16 @@ import {
   
   const projects = [
     {
-      name: "WeatherAPP",
+      name: "DinHeiro",
       description:
-        "Web-based platform that allows users to search and fetch weather information of a particular city. Tech Stack : Html/CSS/Js/React/Api(openWeather API)",
+        "it is a simple frontend landing page.A Modern dynamic banking website.it has a Modern UI/UX design with dark shade and gradient.Tech stack used : ReactJS, Tailwind CSS, Html , Basic Javascirpt",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "openWeather",
+          name: "UI/UX",
           color: "green-text-gradient",
         },
         {
@@ -215,45 +203,45 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: DinHeiro,
+      source_code_link: "https://github.com/Sanskarrrrrrrr/DinHeiro",
     },
     {
-      name: "Job IT",
+      name: "Gericht",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A modern UI/UX website for a fancy restaurant. Made with ReactJS along with basic CSS and Html",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Html",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: Gericht,
+      source_code_link: "https://github.com/Sanskarrrrrrrr/GERICHT",
     },
     {
-      name: "Trip Guide",
+      name: " Work in Porgress ",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Currently in Development",
       tags: [
         {
-          name: "nextjs",
+          name: "###",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "###",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "###",
           color: "pink-text-gradient",
         },
       ],
